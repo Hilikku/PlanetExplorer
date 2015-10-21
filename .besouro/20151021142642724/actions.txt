@@ -59,3 +59,30 @@ RefactoringAction 1445430020834 PlanetExplorer.java ADD void setY(int) METHOD
 RefactoringAction 1445430020835 PlanetExplorer.java ADD String getObstacles() METHOD
 RefactoringAction 1445430020835 PlanetExplorer.java ADD void setObstacles(String) METHOD
 EditAction 1445430109841 PlanetExplorer.java 1850 8 10 0
+RefactoringAction 1445430121338 TestPlanetExplorer.java RENAME test()=>void testGrid() METHOD
+RefactoringAction 1445430126849 TestPlanetExplorer.java RENAME testGrid()=>void testGridAndObstacles() METHOD
+RefactoringAction 1445430199753 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+RefactoringAction 1445430312987 TestPlanetExplorer.java RENAME testGridAndObstacles()=>void test() METHOD
+RefactoringAction 1445430600933 PlanetExplorer.java ADD String command FIELD
+RefactoringAction 1445430610450 PlanetExplorer.java ADD String getCommand() METHOD
+RefactoringAction 1445430610451 PlanetExplorer.java ADD void setCommand(String) METHOD
+RefactoringAction 1445430616468 PlanetExplorer.java REMOVE setCommand(String) METHOD
+RefactoringAction 1445430616469 PlanetExplorer.java REMOVE getCommand() METHOD
+RefactoringAction 1445430619488 PlanetExplorer.java ADD String getCommand() METHOD
+RefactoringAction 1445430619489 PlanetExplorer.java ADD void setCommand(String) METHOD
+FileOpenedAction 1445430709270 Grid.java 74 0 0 0
+FileOpenedAction 1445430842549 SudokuVerifier.java 1047 3 14 0
+FileOpenedAction 1445431019936 SudokuVerifier.java 1047 3 14 0
+FileOpenedAction 1445431968260 Explorer.java 82 0 0 0
+RefactoringAction 1445431981764 Explorer.java ADD Explorer() METHOD
+RefactoringAction 1445431998771 Explorer.java RENAME Explorer()=>Explorer(String) METHOD
+RefactoringAction 1445432079846 Explorer.java RENAME Explorer(String)=>void StringExplorer(String) METHOD
+RefactoringAction 1445432080851 Explorer.java RENAME StringExplorer(String)=>String Explorer(String) METHOD
+RefactoringAction 1445432110373 Explorer.java ADD void Position(String) METHOD
+RefactoringAction 1445432142884 Explorer.java RENAME Position(String)=>void Position() METHOD
+RefactoringAction 1445432198423 Explorer.java RENAME Position()=>void Position(String) METHOD
+RefactoringAction 1445433031208 Explorer.java ADD String facing FIELD
+RefactoringAction 1445433037731 Explorer.java ADD int face FIELD
+RefactoringAction 1445433042757 Explorer.java REMOVE face FIELD
+RefactoringAction 1445433598333 PlanetExplorer.java ADD String facing FIELD
+EditAction 1445433599341 PlanetExplorer.java 2732 10 15 0

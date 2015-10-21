@@ -7,7 +7,11 @@ public class PlanetExplorer {
 	private int x;
 	private int y;
 	private String obstacles;
+	private String command;
+	private String facing;
 
+
+	
 
 	public PlanetExplorer(int x, int y, String obstacles){
 		this.setX(x);
@@ -27,7 +31,45 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
+		this.setCommand(command);
+		int face = 0;
 		
+		for(int i=0; i < command.length(); i++){
+			if(command.charAt(i) == 102) {
+				//forward x || y +1
+				
+			}
+			if(command.charAt(i) == 98) {
+				//backward x || y -1
+			}
+			if(command.charAt(i) == 114) {
+				face++;
+			}
+			if(command.charAt(i) == 108) {
+				face--;
+			}
+			if(face < -3 || face > 3) {
+				face =0;
+			}
+			switch (face) {
+			case 0: facing = "N";
+				break;
+			case 1: facing = "E";
+				break;
+			case 2: facing = "S";
+				break;
+			case 3: facing = "W";
+				break;
+			case -1: facing = "W";
+				break;
+			case -2: facing = "S";
+				break;
+			case -3: facing = "E";
+				break;
+				
+			}
+			
+		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -68,6 +110,12 @@ public class PlanetExplorer {
 	public void setObstacles(String obstacles) {
 		this.obstacles = obstacles;
 	}
-	
+	public String getCommand() {
+		return command;
+	}
+
+	public void setCommand(String command) {
+		this.command = command;
+	}
 	
 }

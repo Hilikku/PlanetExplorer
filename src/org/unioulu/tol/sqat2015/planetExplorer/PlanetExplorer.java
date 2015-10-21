@@ -70,7 +70,7 @@ public class PlanetExplorer {
 			if(face < -3 || face > 3) {
 				face =0;
 			}
-			switch (face) {
+		/*	switch (face) {
 			case 0: facing = "N";
 				break;
 			case 1: facing = "E";
@@ -86,7 +86,7 @@ public class PlanetExplorer {
 			case -3: facing = "E";
 				break;
 				
-			}
+			} */
 			
 		}
 		

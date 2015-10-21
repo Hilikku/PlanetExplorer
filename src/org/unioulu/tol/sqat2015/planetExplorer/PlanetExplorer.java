@@ -36,11 +36,30 @@ public class PlanetExplorer {
 		
 		for(int i=0; i < command.length(); i++){
 			if(command.charAt(i) == 102) {
-				//forward x || y +1
+				if(face == 0) {
+					y++;
+				} else if(face == 1 && face == -3) {
+					x++;
+				} else if (face == 2 && face == -2) {
+					y--;
+				} else if (face==3 && face == -1){
+					x--;
+				}
+				//forward
 				
 			}
 			if(command.charAt(i) == 98) {
-				//backward x || y -1
+				if(face == 0) {
+					y--;
+				} else if(face == 1 && face == -3) {
+					x--;
+				} else if (face == 2 && face == -2) {
+					y++;
+				} else if (face==3 && face == -1){
+					x++;
+				}
+				
+				//backward 
 			}
 			if(command.charAt(i) == 114) {
 				face++;

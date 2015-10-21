@@ -70,7 +70,7 @@ public class PlanetExplorer {
 			if(face < -3 || face > 3) {
 				face =0;
 			}
-		/*	switch (face) {
+			switch (face) {
 			case 0: facing = "N";
 				break;
 			case 1: facing = "E";
@@ -86,10 +86,10 @@ public class PlanetExplorer {
 			case -3: facing = "E";
 				break;
 				
-			} */
-			String position = "(" + x + "," + y + "," + facing + ")";
+			} 
+			
 		}
-		
+		String position = "(" + x + "," + y + "," + facing + ")";
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -102,7 +102,7 @@ public class PlanetExplorer {
 		 *  No white spaces.
 		 */
 		
-		return null;
+		return position;
 	}
 	
 	

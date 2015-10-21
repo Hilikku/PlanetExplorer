@@ -33,30 +33,31 @@ public class PlanetExplorer {
 	public String executeCommand(String command){
 		this.setCommand(command);
 		int face = 0;
-		
+		int pos_y=0;
+		int pos_x=0;
 		for(int i=0; i < command.length(); i++){
 			if(command.charAt(i) == 102) {
 				if(face == 0) {
-					y++;
+					pos_y++;
 				} else if(face == 1 && face == -3) {
-					x++;
+					pos_x++;
 				} else if (face == 2 && face == -2) {
-					y--;
+					pos_y--;
 				} else if (face==3 && face == -1){
-					x--;
+					pos_x--;
 				}
 				//forward
 				
 			}
 			if(command.charAt(i) == 98) {
 				if(face == 0) {
-					y--;
+					pos_y--;
 				} else if(face == 1 && face == -3) {
-					x--;
+					pos_x--;
 				} else if (face == 2 && face == -2) {
-					y++;
+					pos_y++;
 				} else if (face==3 && face == -1){
-					x++;
+					pos_x++;
 				}
 				
 				//backward 
@@ -89,7 +90,7 @@ public class PlanetExplorer {
 			} 
 			
 		}
-		String position = "(" + x + "," + y + "," + facing + ")";
+		String position = "(" + pos_x + "," + pos_y + "," + facing + ")";
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 

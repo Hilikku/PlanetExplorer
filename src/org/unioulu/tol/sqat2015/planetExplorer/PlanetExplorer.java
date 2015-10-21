@@ -87,7 +87,7 @@ public class PlanetExplorer {
 				break;
 				
 			} */
-			
+			String position = "(" + x + "," + y + "," + facing + ")";
 		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)

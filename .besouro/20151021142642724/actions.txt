@@ -1,0 +1,61 @@
+FileOpenedAction 1445426803028 TestPlanetExplorer.java 228 1 1 0
+FileOpenedAction 1445426813250 PlanetExplorer.java 1342 2 1 0
+FileOpenedAction 1445427043154 Grid.java 74 0 0 0
+RefactoringAction 1445427740540 Grid.java ADD Grid.java CLASS
+FileOpenedAction 1445427740671 Grid.java 78 0 0 0
+RefactoringAction 1445427799341 Grid.java REMOVE Grid.java CLASS
+FileOpenedAction 1445428007231 Grid.java 74 0 0 0
+FileOpenedAction 1445428170193 BowlingGame.java 844 7 6 0
+FileOpenedAction 1445428171324 Frame.java 1395 10 14 0
+FileOpenedAction 1445428342353 TestCell.java 368 1 3 1
+RefactoringAction 1445428753351 Explorer.java ADD Explorer.java CLASS
+FileOpenedAction 1445428753471 Explorer.java 82 0 0 0
+FileOpenedAction 1445429469840 TestBowlingScoreCalculator.java 1415 7 19 10
+RefactoringAction 1445429600062 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445429614237 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445429631255 PlanetExplorer.java ADD static int getX() METHOD
+RefactoringAction 1445429631256 PlanetExplorer.java ADD static void setX(int) METHOD
+RefactoringAction 1445429631257 PlanetExplorer.java ADD static int getY() METHOD
+RefactoringAction 1445429631257 PlanetExplorer.java ADD static void setY(int) METHOD
+RefactoringAction 1445429642272 PlanetExplorer.java REMOVE getX() METHOD
+RefactoringAction 1445429642273 PlanetExplorer.java REMOVE getY() METHOD
+RefactoringAction 1445429642273 PlanetExplorer.java REMOVE setX(int) METHOD
+RefactoringAction 1445429642274 PlanetExplorer.java REMOVE setY(int) METHOD
+RefactoringAction 1445429645791 PlanetExplorer.java ADD static int getX() METHOD
+RefactoringAction 1445429645792 PlanetExplorer.java ADD static void setX(int) METHOD
+RefactoringAction 1445429645792 PlanetExplorer.java ADD static int getY() METHOD
+RefactoringAction 1445429645793 PlanetExplorer.java ADD static void setY(int) METHOD
+RefactoringAction 1445429679036 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1445429689554 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1445429689555 PlanetExplorer.java ADD void setObstacles(String) METHOD
+RefactoringAction 1445429696073 PlanetExplorer.java REMOVE setObstacles(String) METHOD
+RefactoringAction 1445429696074 PlanetExplorer.java REMOVE getObstacles() METHOD
+RefactoringAction 1445429699091 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1445429699092 PlanetExplorer.java ADD void setObstacles(String) METHOD
+RefactoringAction 1445429971556 PlanetExplorer.java REMOVE setObstacles(String) METHOD
+RefactoringAction 1445429971557 PlanetExplorer.java REMOVE getObstacles() METHOD
+RefactoringAction 1445429975073 PlanetExplorer.java REMOVE obstacles FIELD
+RefactoringAction 1445429978588 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1445429985102 PlanetExplorer.java REMOVE getX() METHOD
+RefactoringAction 1445429985103 PlanetExplorer.java REMOVE getY() METHOD
+RefactoringAction 1445429985104 PlanetExplorer.java REMOVE setX(int) METHOD
+RefactoringAction 1445429985104 PlanetExplorer.java REMOVE setY(int) METHOD
+RefactoringAction 1445430003658 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1445430003658 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1445430003659 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1445430003659 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1445430003660 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1445430003660 PlanetExplorer.java ADD void setObstacles(String) METHOD
+RefactoringAction 1445430017814 PlanetExplorer.java REMOVE getX() METHOD
+RefactoringAction 1445430017815 PlanetExplorer.java REMOVE setObstacles(String) METHOD
+RefactoringAction 1445430017815 PlanetExplorer.java REMOVE getY() METHOD
+RefactoringAction 1445430017816 PlanetExplorer.java REMOVE setX(int) METHOD
+RefactoringAction 1445430017816 PlanetExplorer.java REMOVE getObstacles() METHOD
+RefactoringAction 1445430017817 PlanetExplorer.java REMOVE setY(int) METHOD
+RefactoringAction 1445430020833 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1445430020833 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1445430020834 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1445430020834 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1445430020835 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1445430020835 PlanetExplorer.java ADD void setObstacles(String) METHOD
+EditAction 1445430109841 PlanetExplorer.java 1850 8 10 0
